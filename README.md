@@ -1,3 +1,16 @@
+# Pairs Trading Strategy Overview
+Pairs trading is a market-neutral trading strategy that involves identifying two co-movable stocks and taking opposite positions in them to capitalize on temporary deviations from their historical pricing patterns. This strategy is based on the law of mean reversion, which suggests that the prices will eventually revert to their historical mean, allowing the trader to profit from this convergence.
+
+Strategy Components
+Pair Selection: The first step in pairs trading is to find two stocks that exhibit a high degree of correlation and co-movement. This typically involves statistical tests such as correlation coefficients and cointegration tests.
+
+Signal Generation: Once a pair is identified, traders monitor the spread between the prices of the two stocks. The "spread" is the difference in price between the two stocks adjusted for certain factors like volatility.
+
+Trade Execution: Trades are executed when the spread widens beyond a pre-determined threshold. If the spread is exceptionally high or low, it indicates that one stock is overpriced relative to the other. The trader would then short the overpriced stock and go long on the underpriced one.
+
+Risk Management: Proper risk management techniques are employed to ensure that potential losses are kept within acceptable limits. This includes setting stop-loss orders and limiting the size of positions.
+
+Exit Strategy: The positions are closed when the spread narrows down again, or based on specific profit targets or time frames.
 # Pairs trading using Kalman_filters
 **A. PAIR IDENTIFICATION AND SELECTION**
 
