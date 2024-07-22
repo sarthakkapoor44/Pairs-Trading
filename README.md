@@ -11,7 +11,7 @@ Trade Execution: Trades are executed when the spread widens beyond a pre-determi
 Risk Management: Proper risk management techniques are employed to ensure that potential losses are kept within acceptable limits. This includes setting stop-loss orders and limiting the size of positions.
 
 Exit Strategy: The positions are closed when the spread narrows down again, or based on specific profit targets or time frames.
-# Pairs trading using Kalman_filters
+# Pairs trading
 **A. PAIR IDENTIFICATION AND SELECTION**
 
 A pair is selected based on their good statistical arbitrage opportunities over time. Correlation and cointegration are 2 important terms which we calculated to keep in check if the stocks follow the required relative price movements, i.e. in line with good statistical arbitrage.
